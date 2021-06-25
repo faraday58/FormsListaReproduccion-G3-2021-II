@@ -16,7 +16,7 @@ namespace FormsListaReproduccion_G3_2021_II
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormListReproduccion());
+           // Application.Run(new FormListReproduccion());
         }
     }
 }

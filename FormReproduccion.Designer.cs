@@ -42,9 +42,9 @@ namespace FormsListaReproduccion_G3_2021_II
             this.lbTiempoTotal = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reproducciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cargarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reproducciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -167,23 +167,23 @@ namespace FormsListaReproduccion_G3_2021_II
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(101, 34);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
-            // reproducciónToolStripMenuItem
-            // 
-            this.reproducciónToolStripMenuItem.Name = "reproducciónToolStripMenuItem";
-            this.reproducciónToolStripMenuItem.Size = new System.Drawing.Size(158, 34);
-            this.reproducciónToolStripMenuItem.Text = "Reproducción";
-            // 
             // cargarToolStripMenuItem
             // 
             this.cargarToolStripMenuItem.Name = "cargarToolStripMenuItem";
-            this.cargarToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.cargarToolStripMenuItem.Size = new System.Drawing.Size(205, 40);
             this.cargarToolStripMenuItem.Text = "Cargar";
             // 
             // agregarToolStripMenuItem
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(205, 40);
             this.agregarToolStripMenuItem.Text = "Agregar";
+            // 
+            // reproducciónToolStripMenuItem
+            // 
+            this.reproducciónToolStripMenuItem.Name = "reproducciónToolStripMenuItem";
+            this.reproducciónToolStripMenuItem.Size = new System.Drawing.Size(158, 34);
+            this.reproducciónToolStripMenuItem.Text = "Reproducción";
             // 
             // FormListReproduccion
             // 
@@ -205,6 +205,7 @@ namespace FormsListaReproduccion_G3_2021_II
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormListReproduccion";
             this.Text = "Reproducción";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormListReproduccion_FormClosed);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
