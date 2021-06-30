@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormRegistroG3", "FormRegis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaUsuario", "LibreriaUsuario\LibreriaUsuario.csproj", "{5B0EBF2E-B668-4FB6-8F4A-E6FA87EC87E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrosG3", "LibrosG3\LibrosG3.csproj", "{0D1E93AF-4A8D-4A8D-BAFB-C99325CB717A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5B0EBF2E-B668-4FB6-8F4A-E6FA87EC87E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B0EBF2E-B668-4FB6-8F4A-E6FA87EC87E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B0EBF2E-B668-4FB6-8F4A-E6FA87EC87E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1E93AF-4A8D-4A8D-BAFB-C99325CB717A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1E93AF-4A8D-4A8D-BAFB-C99325CB717A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1E93AF-4A8D-4A8D-BAFB-C99325CB717A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1E93AF-4A8D-4A8D-BAFB-C99325CB717A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

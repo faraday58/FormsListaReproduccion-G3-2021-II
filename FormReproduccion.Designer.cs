@@ -170,13 +170,14 @@ namespace FormsListaReproduccion_G3_2021_II
             // cargarToolStripMenuItem
             // 
             this.cargarToolStripMenuItem.Name = "cargarToolStripMenuItem";
-            this.cargarToolStripMenuItem.Size = new System.Drawing.Size(205, 40);
+            this.cargarToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.cargarToolStripMenuItem.Text = "Cargar";
+            this.cargarToolStripMenuItem.Click += new System.EventHandler(this.cargarToolStripMenuItem_Click);
             // 
             // agregarToolStripMenuItem
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(205, 40);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.agregarToolStripMenuItem.Text = "Agregar";
             // 
             // reproducciónToolStripMenuItem
